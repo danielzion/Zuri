@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-weight: 400;
+    font-family: "Lexend Deca";
+}
+
+.container {
+    display: flexbox;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 2.5em;
+}
+
+#sedans{
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    background-color: hsl(31, 77%, 52%);
+}
+
+#suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury{
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    background-color: hsl(179, 100%, 13%);
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family: "Big Shoulders Display";
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 0.8em;
+    padding-bottom: 2em;
+    line-height: 1.7em;
+}
+
+.learn-more {
+    font-size: 12px;
+    border-radius: 20px;
+    max-height: 10mm;
+    max-width: 300mm;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.learn-more.suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+.learn-more.sedans {
+    color: hsl(31, 77%, 52%);
+}
+
+.learn-more.luxury {
+    color: hsl(179, 100%, 13%);
+}
+.btn {
+    /* /* text-align: center;  */
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none; 
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+ }
+.btn:hover {
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    
+}
+
+
