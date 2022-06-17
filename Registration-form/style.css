@@ -242,5 +242,5 @@
 .error {
     font-style: italic;
     color: red;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
