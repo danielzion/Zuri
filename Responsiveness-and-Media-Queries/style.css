@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(193, 100%, 96%);
+}
+
+.container {
+    margin: 1em 3em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40em;
+    /* background-color: hsl(193, 100%, 96%); */
+
+}
+
+.header {
+    background-image: url('./images/bg-hero-desktop.svg');
+}
+
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0em 0em 0em;
+}
+
+.logo {
+    height: 1em;
+}
+
+.inner-header > button {
+    background-color: white;
+    border-style: none;
+    padding: 0.6em 2.7em;
+    border-radius: 3em;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    margin: 3em 0em 0em 0em;
+}
+
+.nav-2 > img{
+    /* size-adjust: 2px; */
+    width: 40rem;
+    object-fit: contain;
+}
+
+.nav-1 {
+    align-self: center;
+}
+
+.nav-1 > h1 {
+    font-size: 3em;
+}
+
+
+.nav-1 > button {
+    border-radius: 30em;
+    padding: 1em 3em;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    color: white;
+}
+
+div > .section {
+    background-color: white;
+    width: 100%;
+    margin: 0px;
+}
+
+.sections {
+    background-color: white;
+    margin: 5em;
+    display: grid;
+    grid-gap: 3em;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 1em;
+    border: 0.3px solid grey;
+    padding: 3em;
+    justify-content: space-between;
+
+}
+
+.sections > img {
+    width: 20rem;
+    object-fit: contain;
+}
+
+.section-2 > img{
+    /* size-adjust: 2px; */
+    width: 15rem;
+    object-fit: contain;
+}
+
+.section-1 {
+    align-self: center;
+}
+
+.section-1 > h1 {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+}
+
+.footer {
+    padding-top: 10em;
+    padding: 10em 4em 0em 4em;
+    background-color: hsl(192, 100%, 9%);
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-gap: 3em;
+    /* padding: 1em  */
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.icons {
+    /* paddin; */
+    /* float: left; */
+    display: block;
+    /* flex-wrap: nowrap; */
+}
+
+.icons p{
+    float: left;
+}
+
+.ready {
+    float: inline-start;
+}
