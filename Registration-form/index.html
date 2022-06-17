@@ -6,8 +6,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Intro component with sign up form</title>
+  <title>Olaniyan Daniel | Zuri Registration form</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -34,38 +35,35 @@
       
       <div class="form shadow">
         <form action="">
-          <div class="input">
-            <input type="text" class="form-control" placeholder="First Name">
-            <div class="error">
-              First Name cannot be empty
+          <div class="field first-name">
+            <div class="input-area">
+              <input type="text" placeholder="First Name">
+              <i class="error error-icon fas fa-exclamation-circle"></i>
             </div>
+            <div class="error error-txt">First Name</div>
           </div>
-          <div class="input">
-            <input type="text" class="form-control" placeholder="Last Name">
-            <div class="error">
-                Last Name cannot be empty
+          <div class="field last-name">
+            <div class="input-area">
+              <input type="text" placeholder="Last Name">
+              <i class="error error-icon fas fa-exclamation-circle"></i>
             </div>
+            <div class="error error-txt">Last Name</div>
           </div>
-          <div class="input">
-            <input type="email" class="form-control" placeholder="Email">
-            <div class="error">
-              Looks like this is not an email
+          <div class="field email">
+            <div class="input-area">
+              <input type="text" placeholder="Email Address">
+              <i class="error error-icon fas fa-exclamation-circle"></i>
             </div>
+            <div class="error error-txt">Looks like this is not an email</div>
           </div>
-          <div class="input">
-            <input type="password" class="form-control" placeholder="Password">
-            <div class="error">
-              Password cannot be empty
+          <div class="field password">
+            <div class="input-area">
+              <input type="password" placeholder="Password">
+              <i class="error error-icon fas fa-exclamation-circle"></i>
             </div>
+            <div class="error error-txt">Password cannot be empty</div>
           </div>
-          <div class="text-center">
-            <button type="button" class="btn submit">Claim your free trial</button>
-          </div>
-    
-       
-    
-      
-      
+          <input type="submit" value="Claim your free trial">
         </form>
         <div class="terms">
           By clicking the button, you are agreeing to our <a href="">Terms and Services</a> 
@@ -85,7 +83,7 @@
   </footer>
   </div>
 
-  
+  <script src="script.js"></script>
 
 </body>
 </html>
