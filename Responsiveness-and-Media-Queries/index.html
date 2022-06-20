@@ -5,17 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
-  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+  <title>Olaniyan Daniel | Zuri Huddle landing page</title>
   <link rel="stylesheet" href="style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-    <div class="container">
+  <div class="container">
+    <div class="inner-container">
         <header class="header">
             <div class="inner-header">
                 <img src="./images/logo.svg" alt="" class="logo">
@@ -32,7 +32,7 @@
                         Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
                 Create connections with your users as you engage in genuine discussion. 
                     </p>
-                    <button>
+                    <button class="button">
                         Get Started For Free
                     </button>
                 </nav>
@@ -41,7 +41,8 @@
                 </nav>
             </div>
         </header>
-        <div class="section">
+      </div>
+        <div class="section bottom-section">
             <section class="sections">
                 <div class="section-1">
                 <h1>
@@ -52,17 +53,17 @@
                     Think of the insightful conversations you miss out on with a feedback form. 
                 </p>
                 </div>
-                <div class="section-2">
-                <img src="./images/illustration-grow-together.svg" alt="">
+                <div class="section-2 end">
+                <img src="./images/illustration-grow-together.svg" alt="" class="images">
                 </div>
             </section>
 
             <section class="section">
                 <div class="sections">
                     <div class="section-2">
-                      <img src="./images/illustration-flowing-conversation.svg" alt="">
+                      <img src="./images/illustration-flowing-conversation.svg" alt="" class="images">
                     </div>
-                    <div class="section-1">
+                    <div class="section-1 end">
                       <h1>
                         Flowing Conversations
                       </h1>
@@ -85,53 +86,39 @@
                         This means, once signed in to your app, your users can start chatting immediately.
                       </p>
                     </div>
-                    <div class="section-2">
-                      <img src="./images/illustration-your-users.svg" alt="">
+                    <div class="section-2 end">
+                      <img src="./images/illustration-your-users.svg" alt="" class="images">
                     </div>
                   </div>          
             </section>
-        </div>
+                 
       
-
-        <div>
-
-        </div>
-        <div class="ready">
-          <h1>
-            Ready To Build Your Community?
-          </h1>
-          <button>
-            Get Started For Free
-          </button>
-        </div>
-
-        <footer class="footer">
-            <div>
-              <div>
-                <img src="./images/logo.svg" alt="" class="logo">
               </div>
+        <footer class="footer">
+          <div class="ready">
+                  <h3>
+                    Ready To Build Your Community?
+                  </h3>
+                  <button class="button">
+                    Get Started For Free
+                  </button>  
+                </div>
+          <img src="./images/logo1.svg" alt="" class="logo">
+            <div>
               <div class="footer-grid">
-                <div>
-                  <div class="icons">
-                    <div>
-                      <img src="./images/icon-location.svg" alt="">
-                    </div>
-                      <p>
+                <div class="info">
+                  <div class="icons grid">
+                      <img src="./images/icon-location.svg" alt="" class="location">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                     incididunt ut labore et dolore magna aliqua
-                    </p>
                 </div>
-                <div class="icons">
+                <div class="icons grid">
                   <img src="./images/icon-phone.svg" alt="">
-                  <p>
                     +1-543-123-4567
-                  </p>
                 </div>
-                <div class="icons">
+                <div class="icons grid">
                   <img src="./images/icon-email.svg" alt="">
-                  <p>
                     example@huddle.com
-                  </p>
                 </div>
                   </div> 
               <div>
@@ -149,10 +136,10 @@
                 </ul>
               </div>
               
-              <div>
-                <img src="" alt="facebook">
-                <img src="" alt="twitter">
-                <img src="" alt="instagram">
+              <div class="social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
               </div>
             </div>  
             <p class="attribution">
