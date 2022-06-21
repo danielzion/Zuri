@@ -446,3 +446,15 @@ ul li:hover {
 .inner-header > button {
     cursor: pointer;
 }
+
+.header {
+    position: relative;
+    animation: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+
+@keyframes heading{
+    0% {top: -50px;}
+    100% {top: 0px;}
+  }
